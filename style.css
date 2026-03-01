@@ -7,7 +7,7 @@ body {
   padding: 0;
   font-family: 'Pixelify Sans', sans-serif;
   height: 100vh;
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
 
@@ -17,6 +17,7 @@ body {
 #birthdayText {
   font-size: 3rem;
   margin-bottom: 20px;
+  margin-top: 20px;
   color: #333;
 }
 
