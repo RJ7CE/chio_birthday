@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Birthday Cake 🎂</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chio Birthday 🎂</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -104,7 +104,7 @@
       createCandles(candleCount);
 
       // === Microphone / Blow Detection ===
-      async function startMicDetection() {
+     /* async function startMicDetection() {
         try {
           const stream = await navigator.mediaDevices.getUserMedia({
             audio: true,
@@ -156,7 +156,7 @@
         } catch (err) {
           console.error("Mic access error:", err);
         }
-      }
+      }*/
 
       function blowOutCandles() {
         const candles = document.querySelectorAll(".candle");
